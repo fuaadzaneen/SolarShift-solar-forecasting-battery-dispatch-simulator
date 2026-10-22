@@ -1,0 +1,16 @@
+Model,Season,Samples,MAE_kW,RMSE_kW,nRMSE_capacity_pct,Daylight_MAE_kW
+pv_persistence_baseline,All Seasons (Overall),8760,0.1227,0.2976,5.95,0.248
+pv_clearsky_baseline,All Seasons (Overall),8760,0.2864,0.5378,10.76,0.562
+pv_ml_forecast,All Seasons (Overall),8760,0.0808,0.1677,3.35,0.163
+pv_persistence_baseline,Dry Winter,2160,0.0626,0.1977,3.95,0.1265
+pv_clearsky_baseline,Dry Winter,2160,0.161,0.2938,5.88,0.3258
+pv_ml_forecast,Dry Winter,2160,0.0603,0.1382,2.76,0.1217
+pv_persistence_baseline,Pre-Monsoon,2208,0.0942,0.2186,4.37,0.1883
+pv_clearsky_baseline,Pre-Monsoon,2208,0.2638,0.4446,8.89,0.5043
+pv_ml_forecast,Pre-Monsoon,2208,0.0769,0.1582,3.16,0.1532
+pv_persistence_baseline,Southwest Monsoon,2208,0.1608,0.3519,7.04,0.3212
+pv_clearsky_baseline,Southwest Monsoon,2208,0.393,0.6916,13.83,0.7251
+pv_ml_forecast,Southwest Monsoon,2208,0.0954,0.1886,3.77,0.1898
+pv_persistence_baseline,Post-Monsoon,2184,0.1723,0.3784,7.57,0.3575
+pv_clearsky_baseline,Post-Monsoon,2184,0.3256,0.6257,12.51,0.6803
+pv_ml_forecast,Post-Monsoon,2184,0.0904,0.1808,3.62,0.1874
